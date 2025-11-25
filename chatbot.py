@@ -12,7 +12,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAIEmb
 
 # --- USER CONFIGURATION ---
 # TODO: Paste your Google API Key between the quotes below
-GOOGLE_API_KEY = "AIzaSyBGhX_poSOGgM1xc4J2hOouOwL-si7L26Y"
+GOOGLE_API_KEY = "Enter you API KEY"
 
 # Set the environment variable automatically
 os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
@@ -178,4 +178,5 @@ def main():
                 st.warning("Please upload at least one PDF file.")
 
 if __name__ == "__main__":
+
     main()
